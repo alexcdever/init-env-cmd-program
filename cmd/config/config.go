@@ -1,5 +1,6 @@
-package main
+package config
 
-func main() {
-	$END$
+type config struct {
+	packageManager []string
+	others []string
 }
